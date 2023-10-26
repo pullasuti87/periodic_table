@@ -1,0 +1,33 @@
+table, tr, td {
+    border: 1px solid;
+}
+
+p {
+    margin: 0;
+}
+
+.symbol, .name, .mass {
+    text-align: center;
+}
+
+.symbol {
+    font-weight: bold;
+}
+
+/* colors for the alternative group classification system */
+
+.actinide {
+    background: rgb(237,50,149);
+    background: linear-gradient(140deg, rgba(237,50,149,1) 0%, rgba(199,96,165,1) 100%);
+}
+
+
+
+
+
+
+
+
+
+
+
