@@ -1,12 +1,11 @@
 body {
-    margin-left: 50px;
-    margin-top: 50px;
+    margin-left: 50px; margin-top: 50px;
 }
 
+.tableB, .tableC { margin-top: 20px; }
+
 td {
-    min-width: 75px;
-    max-width: 75px;
-    height: 68px;
+    min-width: 75px; max-width: 75px; height: 68px;
 }
 
 p {
@@ -19,7 +18,7 @@ p {
 
 .name, .mass, .period {
     font-size: 10px;
-} 
+}
 
 .symbol, .shared-properties {
     font-weight: bold;
@@ -33,52 +32,56 @@ p {
     font-size: 12px;
 }
 
-.separator>td {
-    border-top: 20px solid white;
-}
-
 .period-numbers {
     vertical-align: top;
 }
 
-/* colors for the alternative group classification system */ 
-.alkali-metal {
-    background: linear-gradient(140deg, rgba(225,39,90,1) 0%, rgba(161,39,60,1) 100%);
+/* colors for the alternative group classification system */ .alkali-metal {
+    background: linear-gradient(140deg, rgba(255,180,162,1) 0%,
+    rgba(255,96,115,1) 100%);
 }
 
 .alkaline-earth {
-    background: linear-gradient(140deg, rgba(251,178,27,1) 0%, rgba(248,156,31,1) 100%);
+    background: linear-gradient(140deg, rgba(165,199,212,1) 0%,
+    rgba(78,128,152,1) 100%);
 }
 
 .transition-metal {
-    background: linear-gradient(140deg, rgba(253,229,163,1) 0%, rgba(244,238,61,1) 100%);
+    background: linear-gradient(140deg, rgba(240,201,135,1) 0%,
+    rgba(210,154,66,1) 100%);
 }
 
 .basic-metal {
-    background: linear-gradient(140deg, rgba(106,189,70,1) 0%, rgba(57,185,149,1) 100%);
+    background: linear-gradient(140deg, rgba(200,167,209,1) 0%,
+    rgba(142,81,154,1) 100%);
 }
 
 .semimetal {
-    background: linear-gradient(140deg, rgba(99,165,167,1) 0%, rgba(177,221,222,1) 100%);
+    background: linear-gradient(140deg, rgba(187,185,197,1) 0%,
+    rgba(106,110,115,1) 100%);
 }
 
 .nonmetal {
-    background: linear-gradient(140deg, rgba(61,140,197,1) 0%, rgba(93,197,209,1) 100%);
+    background: linear-gradient(140deg, rgba(109,236,185,1) 0%,
+    rgba(0,171,107,1) 100%);
 }
 
 .halogen {
-    background: linear-gradient(140deg, rgba(95,117,182,1) 0%, rgba(178,199,230,1) 100%);
-} 
-.noble-gas {
-    background: linear-gradient(140deg, rgba(172,152,201,1) 0%, rgba(129,102,172,1) 100%);
+    background: linear-gradient(140deg, rgba(160,244,219,1) 0%,
+    rgba(55,193,167,1) 100%);
+} .noble-gas {
+    background: linear-gradient(140deg, rgba(219,146,178,1) 0%,
+    rgba(164,81,131,1) 100%);
 }
 
 .lanthanide{
-    background: linear-gradient(140deg, rgba(126,105,175,1) 0%, rgba(172,67,153,1) 100%);
+    background: linear-gradient(140deg, rgba(255,211,182,1) 0%,
+    rgba(255,74,135,1) 100%);
 }
 
 .actinide {
-    background: linear-gradient(140deg, rgba(237,50,149,1) 0%, rgba(199,96,165,1) 100%);
+    background: linear-gradient(140deg, rgba(225,198,217,1) 0%,
+    rgba(255,128,141,1) 100%);
 }
 
 
