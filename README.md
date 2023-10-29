@@ -4,4 +4,3 @@
 - inspired by rose pine theme 
 
 ![periodic_table](./screenshot.png)
-*table*
